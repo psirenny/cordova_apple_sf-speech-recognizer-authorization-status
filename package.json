@@ -97,6 +97,7 @@
     "rollup": "0.66.6",
     "rollup-plugin-babel": "4.1.0-0",
     "rollup-plugin-flow-entry": "0.2.0",
+    "standard-version": "4.4.0",
     "stylelint-config-standard": "18.2.0",
     "trash-cli": "1.4.0",
     "unified": "7.0.0",
@@ -128,6 +129,7 @@
     "lint:md": "remark --frail .",
     "lint:pkg": "npmPkgJsonLint ./package.json",
     "outdated": "updates -gp",
+    "release": "standard-version",
     "typecheck": "flow check",
     "typecheck:cov": "flow-coverage-report --config .flowcoveragereportrc",
     "update": "updates -gpu"

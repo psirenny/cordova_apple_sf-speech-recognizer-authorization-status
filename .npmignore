@@ -7,8 +7,10 @@
 .flow-coverage
 .flowconfig
 .flowcoveragereportrc
+.huskyrc
 .npmpackagejsonlintrc.json
 .remarkignore
 .remarkrc
 .stylelintrc
 dist
+rollup.config.js
