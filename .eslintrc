@@ -1,7 +1,3 @@
 {
-  "env": { "browser": true },
-  "extends": [
-    "@psirenny/eslint-config",
-    "plugin:inferno/recommended"
-  ]
+  "extends": "@psirenny/eslint-config"
 }
